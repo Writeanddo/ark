@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d293f0660370a064ca0091d2f7d124c2, type: 3}
+  m_Name: RedTracks
+  m_EditorClassIdentifier: 
+  blockSprite: {fileID: 8284532375005098988, guid: 3d2b0169e63afb641ba3303daf1afd60,
+    type: 3}
+  mappings:
+  - type: 0
+    sprite: {fileID: 0}
+  - type: 1
+    sprite: {fileID: -4702836043672164649, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 2
+    sprite: {fileID: 6532523716316453795, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 3
+    sprite: {fileID: 5998331208653014917, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 5
+    sprite: {fileID: -6145203571457958325, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 4
+    sprite: {fileID: -9107661179265553623, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 6
+    sprite: {fileID: -3674983712794999475, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}
+  - type: 7
+    sprite: {fileID: -4116928945689028972, guid: 3d2b0169e63afb641ba3303daf1afd60,
+      type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd77f4bb24efa048aaa2686d12a9bfd, type: 3}
+  m_Name: IntroMessage
+  m_EditorClassIdentifier: 
+  messages:
+  - This world has become too unstable...
+  - Take with you two of every kind of animal, a male and its mate...
+  - Seven days from now I will send rain and I will wipe from the face of the earth
+    every living creature I have made.

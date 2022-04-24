@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TilesContainer
+  - BackgroundImage
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Tile
+  - Background
+  - Door
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1792797333
+    locked: 0
+  - name: Grid
+    uniqueID: 4151351897
+    locked: 0
+  - name: Entrance
+    uniqueID: 3193896257
+    locked: 0
+  - name: Tile
+    uniqueID: 3986402497
+    locked: 0
+  - name: Highlight
+    uniqueID: 569812223
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2978363915
+    locked: 0
+  - name: Shepherd
+    uniqueID: 1206825609
+    locked: 0
+  - name: Basket
+    uniqueID: 4232333999
+    locked: 0
+  - name: Animal
+    uniqueID: 4006040939
+    locked: 0
+  - name: Button
+    uniqueID: 1803227025
+    locked: 0
+  - name: Water
+    uniqueID: 1683589537
+    locked: 0
+  - name: Bushes
+    uniqueID: 1504419245
+    locked: 0
+  - name: Controls
+    uniqueID: 2731039213
+    locked: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecdeb0f7cae59f43b3fc2c09d95a85b, type: 3}
+  m_Name: Pig
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: d485ec5dcd1ad2e408b6d8cf8396fc6f, type: 3}
+  sortingLayer: Animal
+  onMouseEnterClip: {fileID: 0}
+  onMouseExitClip: {fileID: 0}
+  onMouseClickClip: {fileID: 8300000, guid: c4d4160dbdb5a164d8f18738fc83dde4, type: 3}
+  animalName: Pig

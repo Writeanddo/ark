@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5387226055045885706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5387226055045885717}
+  - component: {fileID: 5387226055045885716}
+  - component: {fileID: 5387226055045885718}
+  - component: {fileID: 5387226055045885707}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5387226055045885717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5387226055045885716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2d2fc41b1cd8241a99c4cd96d7bf3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  sfxPreviewClip: {fileID: 8300000, guid: 8df67e69c617eb9429adc97aec901a93, type: 3}
+  muteMusic: 0
+  muteSfx: 0
+  mixer: {fileID: 24100000, guid: 3ef32ba17fa346b4b9a8183cfb98c94e, type: 2}
+  masterVolumeParameterName: MasterVolume
+  musicVolumeParameterName: MusicVolume
+  sfxVolumeParameterName: SFXVolume
+  defaultMasterVolume: 1
+  defaultMusicVolume: 0.3
+  defaultSFXVolume: 0.681
+  sfxPoolSize: 30
+--- !u!114 &5387226055045885718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63022e19ca328b943a36b04761581b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  mainMenuMusic: {fileID: 0}
+  gameMusic: {fileID: 8300000, guid: 133a849689832c84d87498a086795077, type: 3}
+  victoryMusic: {fileID: 0}
+--- !u!114 &5387226055045885707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387226055045885706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c00524268a4154c98bc1a1656a32c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 1
+  sonSelectClip: {fileID: 8300000, guid: 778ca57e7221a814a9e2bb04b17e25da, type: 3}
+  pathPlaceClip: {fileID: 8300000, guid: 0a8be29e510a90a42a2ce3d7da36efde, type: 3}
+  pathRemoveClip: {fileID: 8300000, guid: d7f8b378828f29c4bbbab2b04a03227c, type: 3}
+  pathIntoArkClip: {fileID: 8300000, guid: b271442fbf6596f40907de87a398d4d9, type: 3}
+  buttonHoverClip: {fileID: 8300000, guid: f32f3200fb7c946439fb907d7797cc71, type: 3}
+  buttonStartClip: {fileID: 8300000, guid: b96b540c0dd089a41a57859b10c8d723, type: 3}
+  buttonStopClip: {fileID: 8300000, guid: eb90548fc06d24b45b317b48e1717221, type: 3}
+  buttonMenuClip: {fileID: 8300000, guid: b96b540c0dd089a41a57859b10c8d723, type: 3}
+  walkingSteps:
+  - {fileID: 8300000, guid: 535bc04451bad4446b4be88db63ec9fd, type: 3}
+  - {fileID: 8300000, guid: f51d45f6d2868a342b9275aaf6822803, type: 3}
+  - {fileID: 8300000, guid: ac71fcf1efb0f2a40a840f3eb3046b37, type: 3}
+  - {fileID: 8300000, guid: b66f0e5e14e6e204c804748edf3dba55, type: 3}
+  - {fileID: 8300000, guid: 26bfb0f912964a1499b120507e7a0abd, type: 3}
+  arkEnterClip: {fileID: 8300000, guid: 2cbc130b6646d524b91bd8649d17b02b, type: 3}
+  arkDoorsClip: {fileID: 8300000, guid: be0478d848caabc4286fbc7a57649328, type: 3}
+  openTextBoxClip: {fileID: 0}
+  typeTextClip: {fileID: 8300000, guid: b72d98c121df77c44a9990cfaba228c9, type: 3}
+  waveClip: {fileID: 8300000, guid: 306228e2b2081a74a85f16091d2c0ebe, type: 3}
